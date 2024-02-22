@@ -1,0 +1,20 @@
+{
+    "$id": "https://github.com/projectronin/contract-event-prodeng-pro-onboarding/blob/main/src/main/resources/schemas/pro-onboarding.schema.json",
+    "title": "Patient pro onboarding schema",
+    "description": "Schema describing event to initiate pro enabled onboarding for a patient",
+    "type": "object",
+    "properties": {
+        "tenantId": {
+          "description": "The ID of the tenant to which the patient belongs to",
+          "type": "string"
+        },
+        "patientId": {
+          "description": "The ID of the patient, aka UDP ID",
+          "type": "string"
+        }
+      },
+      "required": [
+        "tenantId",
+        "patientId"
+      ]
+  }
