@@ -1,7 +1,7 @@
 {
     "$id": "https://github.com/projectronin/contract-event-prodeng-pro-onboarding/blob/main/src/main/resources/schemas/pro-onboarding.schema.json",
     "title": "Patient pro onboarding schema",
-    "description": "Schema describing an event to initiate pro enabled onboarding for a patient",
+    "description": "Schema describing event to initiate pro enabled onboarding for a patient",
     "type": "object",
     "properties": {
         "tenantId": {
